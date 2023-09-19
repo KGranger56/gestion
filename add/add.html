@@ -5,58 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gestion</title>
   <link rel="stylesheet" href="/add/add.css" />
+  <link rel="stylesheet" href="global-add.css" />
+  <link rel="stylesheet" href="add.css" />
 </head>
 <body>
-    <div class="add">
-      <div class="makers-navigation-bar">
+    <div class="ADD">
+      <div class="MAKERS-NAVIGATION">
         <div class="container">
           <div class="left">
-            <div class="makers-brand-logo">
-              <div class="makingit-logo">
-                <div class="icon">
-                  <div class="icon-child"></div>
-                  <div class="icon-item"></div>
-                  <div class="icon-inner"></div>
-                </div>
-              </div>
+            <div class="MAKERS-BRAND-LOGO">
+              <div class="making-it-logo"><div class="icon"></div></div>
             </div>
           </div>
           <div class="center">
             <div class="links">
-              <ul>
-                <!--Navigation List-->
-                <li class="makers-navigation-item">
-                  <a class="nav-item" id="navHome" href="/index.html">HOME</a>
-                </li>
-                <li class="makers-navigation-item">
-                  <a class="nav-item1" id="navIntervention" href="/intervention/intervention.html">INTERVENTION</a>
-                </li>
-                <li class="makers-navigation-item">
-                  <a class="nav-item2" id="navCompte" href="/compte/compte.html">COMPTE</a>
-                </li>
-                <li class="makers-navigation-item">
-                  <a class="nav-item3" id="navHistorique" href="/HISTORIQUE/historique.html">HISTORIQUE</a>
-                </li>
-                <li class="makers-navigation-item">
-                  <a class="nav-item4" id="navInstances" href="/instances/instances.html">INSTANCES</a>
-                </li>
-                <li class="makers-navigation-item">
-                  <a class="nav-item5" id="navLogin" href="/login/login.html">LOGIN</a>
-                </li>
-                <li class="makers-navigation-item">
-                  <a class="nav-item6" id="navTaches" href="/taches/taches.html">TACHES</a>
-                </li>
-                <li class="makers-navigation-item">
-                  <a class="nav-item7" id="navAdd" href="/add/add.html">ADD</a>
-                </li>
-              </ul>
+              <div id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" title="profil" aria-current="page" href="/profile/profile.html">PROFIL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" title="ADD" href="/add/add.html">ADD</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" title="COMPETE" href="/compte/compte.html">COMPTE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" title="HISTORIQUE" href="/HISTORIQUE/historique.html">HISTORIQUE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" title="INSTANCES" href="/instances/instances.html">INSTANCES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" title="INTERVENTION" href="/intervention/intervention.html">INTERVENTION</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" title="LOGIN" href="/login/login.html">LOGIN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" title="Home" href="/Home/home.html">HOME</a>
+                  </li>
+                </ul>
+              </div>
+
             </div>
-          </div>
-          <div class="right">
-            <div class="makers-button">
-              <div class="button">ADD</div>
-            </div>
-          </div>
         </div>
       </div>
       <div class="add-1-wrapper">
@@ -119,22 +111,5 @@
 
       <input class="ellipse-input" placeholder="num" type="number" />
     </div>
-
-    <script>
-      var navItemText = document.getElementById("navItemText");
-      if (navItemText) {
-        navItemText.addEventListener("click", function (e) {
-          // Please sync "INTERVENTION" to the project
-        });
-      }
-      
-      var navItemText2 = document.getElementById("navItemText2");
-      if (navItemText2) {
-        navItemText2.addEventListener("click", function (e) {
-          // Please sync "INSTANCES" to the project
-        });
-      }
-      </script>
-  </div>
-</body>
+  </body>
 </html>
