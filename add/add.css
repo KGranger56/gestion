@@ -660,7 +660,20 @@ ul {
   flex-direction: row;
   list-style-type: none;
 }
+body {
+background: url("/add/add\ 1.jpg");
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 li {
-  padding: 1rem;
+  padding: 1rem
 }
