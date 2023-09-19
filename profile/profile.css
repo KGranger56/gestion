@@ -342,3 +342,12 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 1rem;
+}

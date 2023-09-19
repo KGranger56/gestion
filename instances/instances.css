@@ -189,3 +189,13 @@
   top: 2299px;
   left: 345px;
 }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding: 1rem;
+}

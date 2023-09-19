@@ -449,3 +449,13 @@
   all: unset;
   box-sizing: border-box;
 }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding: 1rem;
+}

@@ -280,3 +280,13 @@
   top: 936px;
   left: 170px;
 }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding: 1rem;
+}

@@ -145,3 +145,13 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding: 1rem;
+}

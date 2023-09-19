@@ -375,3 +375,13 @@ background-size: cover;
 background-repeat: no-repeat ;
 background-size: cover;
 }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding: 1rem;
+}
